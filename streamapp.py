@@ -4,8 +4,8 @@ import pickle
 
 
 # Load the pre-trained model
-loaded_model = pickle.load(open('D:/study/projects/AI/machine learning/Diabetes Prediction project/model.pkl', 'rb'))
-# loaded_model = pickle.load(open('model.pkl', 'rb'))
+# loaded_model = pickle.load(open('D:/study/projects/AI/machine learning/Diabetes Prediction project/model.pkl', 'rb'))
+loaded_model = pickle.load(open('model.pkl', 'rb'))
 
 # Create a function for prediction
 def diabetes_prediction(input_data):
